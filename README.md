@@ -1,6 +1,6 @@
 # [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
 
-[Use this version of hugo to build] (https://github.com/gohugoio/hugo/releases/tag/v0.136.5)
+[Use this version of hugo to build](https://github.com/gohugoio/hugo/releases/tag/v0.136.5)
 
 [![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
 
