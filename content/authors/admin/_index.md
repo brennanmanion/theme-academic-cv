@@ -2,9 +2,6 @@
 # Display name
 title: Cassidy Artz
 
-# Name pronunciation (optional)
-name_pronunciation: KAS-ih-dee ARTS
-
 # Full name (for SEO)
 first_name: Cassidy
 last_name: Artz
@@ -20,12 +17,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
-
-# Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: Denver Health
-    url: https://denverhealth.org/
+role: Educator
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -33,8 +25,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:cassidyartz@gmail.com'
     label: E-mail Me
-  - icon: brands/instagram
-    url: https://instagram.com/cassidydanger/
   - icon: brands/linkedin
     url: https://linkedin.com/in/cassidyartz/
 
@@ -91,30 +81,30 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: SAT/ACT Test Preparation 
+      - name: SAT/ACT Test Preparation
         description: 'Math, Reading, Writing, Science'
         percent: 80
         icon: academic-cap
       - name: College Admissions Coaching & Essay Editing
         description: ''
         percent: 100
-        icon: chart-bar
+        icon: document-text
       - name: Educational Psychology
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: light-bulb
       - name: Student Mentorship & Emotional Support
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: hand-raised
       - name: Workshop Development & Public Speaking
         description: ''
         percent: 40
-        icon: pencil
+        icon: presentation-chart-bar
       - name: SPSS and Data Analysis
         description: ''
         percent: 40
-        icon: adjustments-horizontal
+        icon: chart-bar
       - name: Time Management & Executive Function Coaching
         description: ''
         percent: 40
@@ -122,7 +112,7 @@ skills:
       - name: Remote and In-Person Instruction
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: computer-desktop
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -130,15 +120,15 @@ skills:
       - name: Scuba Diving
         description: ''
         percent: 60
-        icon: hero/sparkles
+        icon: globe-americas
       - name: Snowboarding
         description: ''
         percent: 100
-        icon: cat
+        icon: sun
       - name: Field Hockey
         description: ''
         percent: 80
-        icon: camera
+        icon: trophy
 
 languages:
   - name: English
