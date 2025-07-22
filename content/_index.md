@@ -15,13 +15,16 @@ sections:
       text: |
         Cassidy Artz is a nationally experienced SAT/ACT Tutor and College Admissions Advisor who has helped hundreds of students achieve their academic goals since 2010. With a background in psychology from Northwestern University and a Master of Public Health from Emory University, Cassidy combines educational expertise with deep empathy and a personalized approach to learning. She specializes in working with students of all learning styles—including those with ADHD, test anxiety, and learning differences—and is known for her calm presence, strategic insights, and outstanding results.
         <br>
-        <br>
-        Cassidy offers:
-        - **SAT/ACT Test Prep:** Personalized, results-driven tutoring.
-        - **College Admission Success:** School list curation, essay editing, and more.
-        - **Teaching Philosophy:** Confidence, mindset, and executive function support.
-
-        <br>
+      cards:                     # new list of cards
+        - icon: book
+          name: Tutoring
+          description: Personalized SAT/ACT tutoring
+        - icon: handshake
+          name: Consulting
+          description: College admissions guidance
+        - icon: star
+          name: Scholarships
+          description: Help securing scholarships
       button:
         text: Download CV
         url: uploads/resume.pdf
