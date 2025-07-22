@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Cassidy Artz
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: KAS-ih-dee ARTS
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Cassidy
+last_name: Artz
 
 # Status emoji
 status:
@@ -24,103 +24,102 @@ role: Chief Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Denver Health
+    url: https://denverhealth.org/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:cassidyartz@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://instagram.com/cassidydanger/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://linkedin.com/in/cassidyartz/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Behavioral Health
+  - Education
+  - Fellowship Outreach
+  - Consulting
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Northwestern University
+    institution: Bachelor of Arts, Psychology
+    date_start: 2010-01-01
+    date_end: 2014-12-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Phi Beta Kappa,
+      *magna cum laude*,
+      Dean’s List
+  - area: University of Virginia
+    institution: Study Abroad, Semester at Sea
+    date_start: 2013-01-01
+    date_end: 2013-06-30
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+      Work Study Awardee
+  - area: Emory University
+    institution: Master of Public Health, Healthcare Administration
     date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_end: 2017-12-31
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Rollins Earn and Learn Awardee, accelerated MPH Program completed in 1 year.
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: College Advisor and SAT/ACT Tutor
+    company_name: Daniell Tutoring Services, Aced Up
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2016-09-01
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+      - Specialize in SAT and ACT test preparation as well as AP Exam preparation.
+      - Tutor students in a variety of subjects including Math, Science, English, History, and Writing.
+      - Guide students through the college application process.
+  - position: Research Assistant
+    company_name: Harvard Medical School
+    company_url: https://hms.harvard.edu/
+    company_logo: ''
+    date_start: 2014-07-01
+    date_end: 2015-07-01
+    summary: |
+      Responsibilities include:
+      - Coded data in SPSS (Statistical Package for the Social Sciences) from the longest longitudinal study every conducted.
+      - Published research titled, “Lifespan Trajectories of Depressive Symptomatology and Personality Functioning" in poster presentation at the Harvard Medical School Research Psychiatry Day. Boston, MA, April 2015. 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ''
+      - name: SAT/ACT Test Preparation 
+        description: 'Math, Reading, Writing, Science'
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: academic-cap
+      - name: College Admissions Coaching & Essay Editing
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Educational Psychology
+        description: ''
+        percent: 40
+        icon: circle-stack
+      - name: Student Mentorship & Emotional Support
+        description: ''
+        percent: 40
+        icon: circle-stack
+      - name: Workshop Development & Public Speaking
+        description: ''
+        percent: 40
+        icon: pencil
+      - name: SPSS and Data Analysis
+        description: ''
+        percent: 40
+        icon: adjustments-horizontal
+      - name: Time Management & Executive Function Coaching
+        description: ''
+        percent: 40
+        icon: clock
+      - name: Remote and In-Person Instruction
         description: ''
         percent: 40
         icon: circle-stack
@@ -128,15 +127,15 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Scuba Diving
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        icon: hero/sparkles
+      - name: Snowboarding
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
+      - name: Field Hockey
         description: ''
         percent: 80
         icon: camera
@@ -144,9 +143,7 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: Spanish
     percent: 25
 
 # Awards.
@@ -183,4 +180,5 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Cassidy Artz is a nationally experienced SAT/ACT tutor and college admissions coach who has helped hundreds of students achieve their academic goals since 2010. With a background in psychology from Northwestern University and a Master of Public Health from Emory, Cassidy combines educational expertise with deep empathy and a personalized approach to learning.
+She specializes in working with students of all learning styles—including those with ADHD, test anxiety, and learning differences—and is known for her calm presence, strategic insights, and outstanding results.
