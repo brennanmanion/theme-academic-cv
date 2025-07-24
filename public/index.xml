@@ -22,6 +22,30 @@
     
     <item>
       <title>College Admissions</title>
+      <link>http://localhost:1313/college-admissions/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/college-admissions/</guid>
+      <description>&lt;p&gt;Cassidy also provides college application support, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;School list curation&lt;/li&gt;
+&lt;li&gt;Essay coaching and editing&lt;/li&gt;
+&lt;li&gt;Timeline planning and accountability&lt;/li&gt;
+&lt;li&gt;Application guidance from start to finish&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Her students have gained admission to top schools such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Princeton&lt;/li&gt;
+&lt;li&gt;Georgetown&lt;/li&gt;
+&lt;li&gt;Georgia Tech&lt;/li&gt;
+&lt;li&gt;University of Michigan&lt;/li&gt;
+&lt;li&gt;Emory&lt;/li&gt;
+&lt;li&gt;Northwestern&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>College Admissions</title>
       <link>http://localhost:1313/services/collegeadmissions/</link>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/services/collegeadmissions/</guid>
@@ -37,11 +61,18 @@
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
-      <description></description>
+      <title>Test Prep</title>
+      <link>http://localhost:1313/test-prep/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/test-prep/</guid>
+      <description>&lt;p&gt;Cassidy offers one-on-one tutoring for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SAT:&lt;/strong&gt; Math, Reading, and Writing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ACT:&lt;/strong&gt; English, Math, Reading, Science, and Essay&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test Strategy:&lt;/strong&gt; Time management, pacing, guessing tactics, anxiety reduction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Her tutoring is customized to each student’s skill gaps, confidence level, and learning preferences. On average, clients see score increases of 200–300+ points on the SAT and 4–6+ points on the ACT.&lt;/p&gt;
+</description>
     </item>
     
     <item>
