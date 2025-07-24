@@ -28,12 +28,6 @@ profiles:
   - icon: brands/linkedin
     url: https://linkedin.com/in/cassidyartz/
 
-interests:
-  - Behavioral Health
-  - Education
-  - Fellowship Outreach
-  - Consulting
-
 education:
   - area: Northwestern University
     institution: Bachelor of Arts, Psychology
