@@ -1,7 +1,7 @@
 ---
 title: Test Prep
-external_link: https://github.com/pandas-dev/pandas
-date: 2025-07-24
+link: /test-prep/
+show_date_updated: false
 tags:
   - Hugo
   - Wowchemy
