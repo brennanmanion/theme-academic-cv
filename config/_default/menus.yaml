@@ -7,21 +7,15 @@ main:
   - name: Bio
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
-  - name: Talks
-    url: /#talks
-    weight: 12
-  - name: News
-    url: /#news
-    weight: 13
   - name: Experience
     url: experience/
     weight: 20
-  - name: Projects
-    url: projects/
+  - name: Test Prep
+    url: test-prep/
     weight: 30
+  - name: College Admissions
+    url: college-admissions/
+    weight: 40
   - name: Testimonials
     url: testimonials/
-    weight: 40
+    weight: 50
