@@ -48,3 +48,4 @@ sections:
       view: article-grid
       fill_image: false
       columns: 2
+---
