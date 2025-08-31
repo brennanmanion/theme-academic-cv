@@ -19,3 +19,6 @@ main:
   - name: Testimonials
     url: testimonials/
     weight: 50
+  - name: Schedule
+    url: schedule/
+    weight: 60
