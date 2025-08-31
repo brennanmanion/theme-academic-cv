@@ -48,6 +48,9 @@
     <loc>http://localhost:1313/publication_types/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:1313/schedule/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/services/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
