@@ -7,6 +7,10 @@
   height:100%;
   min-width:320px;  /* mobile floor */
 }
+
+.page-body h1 {
+  display: none;
+}
 @media (max-width:640px){
   .calendly-wrapper{
     min-height:calc(100vh - var(--navbar-height));
