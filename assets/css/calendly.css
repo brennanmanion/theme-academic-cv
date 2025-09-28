@@ -16,3 +16,16 @@
     min-height:calc(100vh - var(--navbar-height));
   }
 }
+
+html, body, .fullpage-embed {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.fullpage-embed iframe {
+  border: 0;
+  width: 100%;
+  height: 100vh;        /* use 100dvh if supporting dynamic viewports */
+}
+
