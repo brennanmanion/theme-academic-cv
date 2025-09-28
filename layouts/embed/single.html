@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="fullpage-embed">
+  <iframe
+    src="{{ (.Params.embed_url | default (.Params.embed_path | relURL)) }}"
+    title="Schedule"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+</div>
+{{ end }}
