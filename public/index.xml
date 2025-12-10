@@ -324,13 +324,7 @@ data.head()
       <link>http://localhost:1313/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/schedule/</guid>
-      <description>&lt;div class=&#34;calendly-wrapper&#34;&gt;
-  &lt;div class=&#34;calendly-inline-widget&#34;
-       data-url=&#34;https://calendly.com/youruser/your-event&#34;
-       style=&#34;width:100%;height:100%;&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;script src=&#34;https://assets.calendly.com/assets/external/widget.js&#34; async&gt;&lt;/script&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
