@@ -23,6 +23,17 @@ html, body, .fullpage-embed {
   height: 100%;
 }
 
+.page-header,
+.page-footer {
+  display: none;
+}
+
+.page-body {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 100vh;
+}
+
 .fullpage-embed iframe {
   border: 0;
   width: 100%;
