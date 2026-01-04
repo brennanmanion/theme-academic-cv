@@ -2,6 +2,7 @@
 title: "Test Prep"
 date: 2025-07-24
 summary: One-on-one SAT and ACT tutoring
+pager: false
 ---
 
 Cassidy offers one-on-one tutoring for:
