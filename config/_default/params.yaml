@@ -58,3 +58,12 @@ features:
     enable: false
   privacy_pack:
     enable: false
+  avatar:
+    # Display size in pixels for author avatars (image will be downscaled in the layout to this size).
+    display_size: 150
+    # Multiplier for generating a sharper high-DPI source (e.g., 2 = 300px source for a 150px display).
+    retina_scale: 2
+    # Output quality passed to Hugo image processing.
+    quality: 90
+    # Use the original uploaded avatar rather than a resized derivative.
+    use_original: false
