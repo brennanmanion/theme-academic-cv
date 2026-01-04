@@ -2,6 +2,7 @@
 title: "College Admissions"
 date: 2025-07-24
 summary: Comprehensive college application guidance
+pager: false
 ---
 
 Cassidy also provides college application support, including:
