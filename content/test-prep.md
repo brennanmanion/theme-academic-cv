@@ -1,9 +1,13 @@
 ---
-title: "Test Prep"
+title: "SAT/ACT Test Prep"
 date: 2025-07-24
-summary: One-on-one SAT and ACT tutoring
+summary: Online one-on-one SAT/ACT test prep with personalized strategy and score improvement support.
 pager: false
+seo:
+  title: "SAT/ACT Test Prep Online | {brand}"
 ---
+
+## What's included
 
 Cassidy offers one-on-one tutoring for:
 
