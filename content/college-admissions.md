@@ -25,3 +25,9 @@ Her students have gained admission to top schools such as:
 - University of Michigan
 - Emory
 - Northwestern
+
+## Next steps
+
+- [Schedule a call](/lead-generation/) to discuss your timeline.
+- See [SAT/ACT Test Prep Online](/test-prep/) for score improvement support.
+- Browse [Success Stories](/testimonials/) for recent outcomes.
