@@ -16,14 +16,9 @@ marketing:
     org_name: ''
     description: 'Get in contact with Cassidy Artz to change your life with acceptance into your dream school.'
   analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
+    google_analytics: 'G-Y17JRC510E'
   verification:
     google: ''
-    baidu: ''
 
 # Site header
 header:
