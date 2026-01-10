@@ -1,7 +1,9 @@
 ---
-title: Testimonials
-summary: Student Reviews And Outcomes
+title: Success Stories
+summary: Real student outcomes from online SAT/ACT test prep and college admissions coaching.
 type: landing
+seo:
+  title: "Success Stories | {brand}"
 
 cascade:
   - _target:
@@ -12,8 +14,8 @@ cascade:
 sections:
   - block: testimonials
     content:
-      title: Testimonials
-      subtitle: What my customers have to say about me
+      title: Success Stories
+      subtitle: Real student outcomes from online SAT/ACT test prep and admissions coaching
       items:
         - name: Olivia R. – Atlanta, GA
           text: "*Cassidy turned my test anxiety into confidence. My SAT went up 210 points after working with her for just two months. She explains things in a way that just clicks.*"
