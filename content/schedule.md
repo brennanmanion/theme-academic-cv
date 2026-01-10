@@ -10,6 +10,5 @@ pager: false
 reading_time: false
 hide_date: true
 css: ["calendly.css"]  # load custom styles defined below
-embed_url: "https://calendly.com/cassidyartz/Tutoring"
+embed_url: "https://calendly.com/cassidyartz/lead-generation"
 ---
-
