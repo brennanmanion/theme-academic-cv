@@ -1,0 +1,49 @@
+{{ $page := .page }}
+{{ $summary := .summary }}
+{{ $site_type := site.Params.marketing.seo.site_type | default "Person" }}
+
+{{ partialCached "jsonld/website.html" $page }}
+
+{{ if ne $site_type "Person" }}
+  {{ partial "jsonld/business.html" $page }}
+{{ end }}
+
+{{- if $page.IsPage -}}
+
+  {{ if (eq $page.Type "blog") | or (eq $page.Type "publication") | or (eq $page.Type "project") }}
+    {{ partial "jsonld/article.html" (dict "page" $page "summary" $summary) }}
+  {{ end }}
+
+  {{ if eq $page.Type "event" }}
+    {{ partial "jsonld/event.html" (dict "page" $page "summary" $summary) }}
+  {{ end }}
+
+{{- end -}}
+
+{{ if not $page.IsHome }}
+  {{ $crumbs := slice }}
+  {{ $crumbs = $crumbs | append (dict "name" "Home" "url" site.Home.Permalink) }}
+  {{ range $page.Ancestors.Reverse }}
+    {{ if and (ne .RelPermalink "/") (ne .Title "") }}
+      {{ $crumbs = $crumbs | append (dict "name" .Title "url" .Permalink) }}
+    {{ end }}
+  {{ end }}
+  {{ $crumbs = $crumbs | append (dict "name" $page.Title "url" $page.Permalink) }}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {{- range $index, $crumb := $crumbs -}}
+        {{- if $index }},{{ end }}
+        {
+          "@type": "ListItem",
+          "position": {{ add $index 1 }},
+          "name": {{ $crumb.name | jsonify }},
+          "item": {{ $crumb.url | jsonify }}
+        }
+        {{- end -}}
+      ]
+    }
+  </script>
+{{ end }}
