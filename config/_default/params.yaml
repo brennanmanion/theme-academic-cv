@@ -11,10 +11,10 @@ appearance:
 # SEO
 marketing:
   seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'Get in contact with Cassidy Artz to change your life with acceptance into your dream school.'
+    site_type: LocalBusiness
+    local_business_type: EducationalService
+    org_name: 'Cassidy Artz'
+    description: 'Connect with Cassidy Artz for personalized test prep and admissions coaching to help you win admission to top schools with clarity, strategy, and confidence.'
   analytics:
     google_analytics: 'G-Y17JRC510E'
   verification:
