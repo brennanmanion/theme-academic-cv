@@ -17,8 +17,6 @@ marketing:
     description: 'Connect with Cassidy Artz for personalized test prep and admissions coaching to help you win admission to top schools with clarity, strategy, and confidence.'
   analytics:
     google_analytics: 'G-Y17JRC510E'
-  verification:
-    google: ''
 
 # Site header
 header:
