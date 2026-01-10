@@ -17,7 +17,7 @@ sections:
         <br>
       button:
         text: Schedule a Call
-        url: /lead-generation/
+        url: /schedule/
     design:
       css_class: dark
       background:

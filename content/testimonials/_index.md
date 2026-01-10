@@ -16,8 +16,6 @@ sections:
     content:
       title: Success Stories
       subtitle: Real student outcomes from online SAT/ACT test prep and admissions coaching
-      text: |-
-        Want results like these? [Schedule a call](/lead-generation/) or explore [SAT/ACT Test Prep Online](/test-prep/) and [College Admissions Coaching Online](/college-admissions/).
       items:
         - name: Olivia R. – Atlanta, GA
           text: "*Cassidy turned my test anxiety into confidence. My SAT went up 210 points after working with her for just two months. She explains things in a way that just clicks.*"
