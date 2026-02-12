@@ -2,28 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://cassidyartz.com/</link>
+      <atom:link href="https://cassidyartz.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu2829498804382859105.png</url>
+      <url>https://cassidyartz.com/media/icon_hu2829498804382859105.png</url>
       <title>Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions</title>
-      <link>http://localhost:1313/</link>
+      <link>https://cassidyartz.com/</link>
     </image>
     
     <item>
-      <title>College Admissions</title>
-      <link>http://localhost:1313/college-admissions/</link>
+      <title>Appointment Confirmed</title>
+      <link>https://cassidyartz.com/confirmation/</link>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://cassidyartz.com/confirmation/</guid>
+      <description>&lt;p&gt;Thanks for scheduling with Cassidy.&lt;/p&gt;
+&lt;p&gt;Your Calendly booking is confirmed, and a calendar invite with meeting details is on its way to your inbox.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cassidyartz.com/&#34;&gt;Back to Home&lt;/a&gt;
+&lt;a href=&#34;https://cassidyartz.com/schedule/&#34;&gt;Schedule Another Time&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>College Admissions Coaching</title>
+      <link>https://cassidyartz.com/college-admissions/</link>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/college-admissions/</guid>
-      <description>&lt;p&gt;Cassidy also provides college application support, including:&lt;/p&gt;
+      <guid>https://cassidyartz.com/college-admissions/</guid>
+      <description>&lt;h2 id=&#34;whats-included&#34;&gt;What&amp;rsquo;s included&lt;/h2&gt;
+&lt;p&gt;Cassidy also provides college application support, including:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;School list curation&lt;/li&gt;
 &lt;li&gt;Essay coaching and editing&lt;/li&gt;
 &lt;li&gt;Timeline planning and accountability&lt;/li&gt;
 &lt;li&gt;Application guidance from start to finish&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;recent-student-outcomes&#34;&gt;Recent student outcomes&lt;/h2&gt;
 &lt;p&gt;Her students have gained admission to top schools such as:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Princeton&lt;/li&gt;
@@ -33,53 +47,74 @@
 &lt;li&gt;Emory&lt;/li&gt;
 &lt;li&gt;Northwestern&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;next-steps&#34;&gt;Next steps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cassidyartz.com/lead-generation/&#34;&gt;Schedule a call&lt;/a&gt; to discuss your timeline.&lt;/li&gt;
+&lt;li&gt;See &lt;a href=&#34;https://cassidyartz.com/test-prep/&#34;&gt;SAT/ACT Test Prep Online&lt;/a&gt; for score improvement support.&lt;/li&gt;
+&lt;li&gt;Browse &lt;a href=&#34;https://cassidyartz.com/testimonials/&#34;&gt;Success Stories&lt;/a&gt; for recent outcomes.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Test Prep</title>
-      <link>http://localhost:1313/test-prep/</link>
+      <title>SAT/ACT Test Prep</title>
+      <link>https://cassidyartz.com/test-prep/</link>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test-prep/</guid>
-      <description>&lt;p&gt;Cassidy offers one-on-one tutoring for:&lt;/p&gt;
+      <guid>https://cassidyartz.com/test-prep/</guid>
+      <description>&lt;h2 id=&#34;whats-included&#34;&gt;What&amp;rsquo;s included&lt;/h2&gt;
+&lt;p&gt;Cassidy offers one-on-one tutoring for:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;SAT:&lt;/strong&gt; Math, Reading, and Writing&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ACT:&lt;/strong&gt; English, Math, Reading, Science, and Essay&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Test Strategy:&lt;/strong&gt; Time management, pacing, guessing tactics, anxiety reduction&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Her tutoring is customized to each student’s skill gaps, confidence level, and learning preferences. On average, clients see score increases of 200–300+ points on the SAT and 4–6+ points on the ACT.&lt;/p&gt;
+&lt;h2 id=&#34;next-steps&#34;&gt;Next steps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cassidyartz.com/lead-generation/&#34;&gt;Schedule a call&lt;/a&gt; to discuss goals and timing.&lt;/li&gt;
+&lt;li&gt;Explore &lt;a href=&#34;https://cassidyartz.com/college-admissions/&#34;&gt;College Admissions Coaching Online&lt;/a&gt; for application support.&lt;/li&gt;
+&lt;li&gt;Read &lt;a href=&#34;https://cassidyartz.com/testimonials/&#34;&gt;Success Stories&lt;/a&gt; from recent students.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>https://cassidyartz.com/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
+      <guid>https://cassidyartz.com/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>College Admissions</title>
-      <link>http://localhost:1313/services/collegeadmissions/</link>
+      <link>https://cassidyartz.com/services/collegeadmissions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/collegeadmissions/</guid>
+      <guid>https://cassidyartz.com/services/collegeadmissions/</guid>
       <description>&lt;p&gt;Cassidy provides college application support&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Schedule</title>
-      <link>http://localhost:1313/schedule/</link>
+      <link>https://cassidyartz.com/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/schedule/</guid>
+      <guid>https://cassidyartz.com/schedule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schedule a Call</title>
+      <link>https://cassidyartz.com/lead-generation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cassidyartz.com/lead-generation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test Prep</title>
-      <link>http://localhost:1313/services/testprep/</link>
+      <link>https://cassidyartz.com/services/testprep/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/testprep/</guid>
+      <guid>https://cassidyartz.com/services/testprep/</guid>
       <description>&lt;p&gt;Cassidy offers one-on-one tutoring&lt;/p&gt;</description>
     </item>
     

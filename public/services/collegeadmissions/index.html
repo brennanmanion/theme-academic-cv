@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 10, 2026 --><html lang="en-us" dir="ltr"
+<!-- Last Published: February 11, 2026 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -45,7 +45,7 @@
 " />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/services/collegeadmissions/" />
+  <link rel="alternate" hreflang="en-us" href="https://cassidyartz.com/services/collegeadmissions/" />
 
   
   
@@ -131,6 +131,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y17JRC510E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-Y17JRC510E', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -162,7 +201,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu16363081621670081168.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu12717619675211848837.png" />
 
-  <link rel="canonical" href="http://localhost:1313/services/collegeadmissions/" />
+  <link rel="canonical" href="https://cassidyartz.com/services/collegeadmissions/" />
 
   
   
@@ -184,10 +223,10 @@
   <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions" />
-  <meta property="og:url" content="http://localhost:1313/services/collegeadmissions/" />
+  <meta property="og:url" content="https://cassidyartz.com/services/collegeadmissions/" />
   <meta property="og:title" content="College Admissions | Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions" />
-  <meta property="og:description" content="Cassidy provides college application support" /><meta property="og:image" content="http://localhost:1313/services/collegeadmissions/featured.png" />
-    <meta property="twitter:image" content="http://localhost:1313/services/collegeadmissions/featured.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Cassidy provides college application support" /><meta property="og:image" content="https://cassidyartz.com/services/collegeadmissions/featured.png" />
+    <meta property="twitter:image" content="https://cassidyartz.com/services/collegeadmissions/featured.png" /><meta property="og:locale" content="en-us" />
   
     
     
@@ -197,7 +236,69 @@
 
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite","url": "https://cassidyartz.com/"
+}
+</script>
+
+
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://cassidyartz.com/",
+  "name": "Cassidy Artz",
+  "logo": "https://cassidyartz.com/media/icon_hu11065654655032984887.png",
   
+  
+  
+  
+  "url": "https://cassidyartz.com/"
+}
+</script>
+
+
+
+  
+  
+  
+  
+    
+  
+    
+      
+    
+  
+  
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position":  1 ,
+          "name": "\"Home\"",
+          "item": "\"https://cassidyartz.com/\""
+        },
+        {
+          "@type": "ListItem",
+          "position":  2 ,
+          "name": "\"Services\"",
+          "item": "\"https://cassidyartz.com/services/\""
+        },
+        {
+          "@type": "ListItem",
+          "position":  3 ,
+          "name": "\"College Admissions\"",
+          "item": "\"https://cassidyartz.com/services/collegeadmissions/\""
+        }]
+    }
+  </script>
+
 
 
   <title>College Admissions | Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions</title>
@@ -230,43 +331,6 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
   
     
       
@@ -305,6 +369,62 @@
         
       
     
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
       
       
         
@@ -331,26 +451,27 @@
   
   
   
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
   
 
 
@@ -436,8 +557,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
   ></script>
 
   
@@ -672,16 +793,23 @@
         <li class=""><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/confirmation/"
+    
+  >Appointment Confirmed
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/college-admissions/"
     
-  >College Admissions
+  >College Admissions Coaching
     </a></li>
         <li class=""><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/test-prep/"
     
-  >Test Prep
+  >SAT/ACT Test Prep
     </a></li>
         <li class=""><a
     class="hb-sidebar-custom-link
@@ -696,6 +824,13 @@
     href="/schedule/"
     
   >Schedule
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/lead-generation/"
+    
+  >Schedule a Call
     </a></li>
         <li class="open"><a
     class="hb-sidebar-custom-link
@@ -731,7 +866,7 @@
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/testimonials/"
     
-  >Testimonials
+  >Success Stories
     </a></li>
     </ul>
 
@@ -866,8 +1001,6 @@
   
   
   
-    
-  
   
   
 
@@ -888,9 +1021,9 @@
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="http://localhost:1313/" class="no-underline">
+      
       Cassidy Artz
-      </a>
+      
     </div>
 
     

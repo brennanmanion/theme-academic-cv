@@ -2,41 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/college-admissions/</loc>
+    <loc>https://cassidyartz.com/confirmation/</loc>
+    <lastmod>2026-02-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cassidyartz.com/college-admissions/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/test-prep/</loc>
+    <loc>https://cassidyartz.com/test-prep/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/experience/</loc>
+    <loc>https://cassidyartz.com/experience/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://cassidyartz.com/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/services/collegeadmissions/</loc>
+    <loc>https://cassidyartz.com/services/collegeadmissions/</loc>
     <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/publication_types/</loc>
+    <loc>https://cassidyartz.com/publication_types/</loc>
     <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/schedule/</loc>
+    <loc>https://cassidyartz.com/schedule/</loc>
     <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/services/</loc>
+    <loc>https://cassidyartz.com/lead-generation/</loc>
     <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://cassidyartz.com/services/</loc>
     <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/services/testprep/</loc>
+    <loc>https://cassidyartz.com/testimonials/</loc>
     <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/testimonials/</loc>
+    <loc>https://cassidyartz.com/tags/</loc>
     <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://cassidyartz.com/services/testprep/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
