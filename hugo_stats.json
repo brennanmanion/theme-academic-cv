@@ -105,6 +105,7 @@
       "dark:hover:bg-gray-100/5",
       "dark:hover:bg-gray-700",
       "dark:hover:bg-primary-800",
+      "dark:hover:text-gray-300",
       "dark:hover:text-gray-50",
       "dark:hover:text-primary-300",
       "dark:hover:text-primary-400",
@@ -176,10 +177,12 @@
       "h-5",
       "h-6",
       "h-[18px]",
+      "hb-docs-link",
       "hb-scrollbar",
       "hb-sidebar-container",
       "hb-sidebar-custom-link",
       "hb-sidebar-list",
+      "hb-sidebar-mobile-toc",
       "hb-toc",
       "hbb-section",
       "header",
@@ -278,6 +281,7 @@
       "mt-[0.1rem]",
       "mx-auto",
       "my-10",
+      "my-2",
       "my-5",
       "nav-item",
       "nav-link",
@@ -342,6 +346,8 @@
       "rtl:-ml-4",
       "rtl:-rotate-180",
       "rtl:hidden",
+      "scroll-my-6",
+      "scroll-py-6",
       "section-subheading",
       "shadow-md",
       "shrink-0",
@@ -407,8 +413,10 @@
       "moon",
       "nav-menu",
       "nav-toggle",
+      "next-steps",
       "page-bg",
       "profile",
+      "recent-student-outcomes",
       "search",
       "search_toggle",
       "section-collection",
@@ -420,7 +428,8 @@
       "show-button",
       "site-header",
       "sun",
-      "top"
+      "top",
+      "whats-included"
     ]
   }
 }

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Testimonials | Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions</title>
-    <link>http://localhost:1313/testimonials/</link>
-      <atom:link href="http://localhost:1313/testimonials/index.xml" rel="self" type="application/rss+xml" />
-    <description>Testimonials</description>
+    <title>Success Stories | Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions</title>
+    <link>https://cassidyartz.com/testimonials/</link>
+      <atom:link href="https://cassidyartz.com/testimonials/index.xml" rel="self" type="application/rss+xml" />
+    <description>Success Stories</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1313/media/icon_hu2829498804382859105.png</url>
-      <title>Testimonials</title>
-      <link>http://localhost:1313/testimonials/</link>
+      <url>https://cassidyartz.com/media/icon_hu2829498804382859105.png</url>
+      <title>Success Stories</title>
+      <link>https://cassidyartz.com/testimonials/</link>
     </image>
     
   </channel>
