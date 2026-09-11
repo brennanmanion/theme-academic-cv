@@ -1,0 +1,140 @@
+announcement:
+  text: "Limited 1-on-1 tutoring spots available."
+  link_text: "Book now"
+
+brand: "Cassidy Artz"
+
+hero:
+  title: "Prepare Your Child for Ivy League with Expert SAT & ACT Tutoring"
+  description: "Give them clarity, confidence, and a plan that turns test-day stress into real progress."
+  proof: "Trusted by families nationwide since 2010"
+  panel_title: "Start with a clear plan"
+  panel_text: "Book a complimentary call to talk through your child's goals, timeline, and next best step."
+
+cta:
+  text: "Book a 1:1 Call with Cassidy"
+  url: "/schedule/"
+  note: "Just clarity on your next steps."
+
+experience:
+  value: "15+"
+  label: "Years Experience"
+
+score_intro: "On average, students improve"
+
+score_stats:
+  - value: "200 to 300+"
+    label: "Average SAT Points Increase"
+  - value: "4 to 6+"
+    label: "Average ACT Points Increase"
+
+colleges:
+  title: "Students Accepted to Leading Colleges"
+  note: "School marks are represented by placeholders until the original logo assets are available."
+  items:
+    - Harvard
+    - Princeton
+    - Notre Dame
+    - Stanford
+    - Georgetown
+    - Georgia Tech
+    - Brown
+    - Emory
+    - Northwestern
+
+featured_result:
+  eyebrow: "Results That Open Ivy-League Doors"
+  title: "Admitted to Stanford University"
+  name: "Emma R."
+  detail: "Biomedical Engineering"
+  quote: "Cassidy raised my SAT score 280 points."
+  image: "media/home/student-result.jpg"
+  image_alt: "A college student working with a laptop and notebook"
+  image_label: "Representative student image"
+  credit: "Charlotte May / Pexels"
+  source_url: "https://www.pexels.com/photo/crop-laughing-black-student-with-laptop-and-notebook-5965525/"
+
+services:
+  title: "What I Bring to My Students"
+  items:
+    - badge: "SAT"
+      title: "SAT Tutoring"
+      text: "Math, Reading, and Writing with customized test-prep strategies."
+    - badge: "ACT"
+      title: "ACT Tutoring"
+      text: "English, Math, Reading, Science, and Essay support built around the student."
+    - badge: "TIME"
+      title: "Test Strategy"
+      text: "Time management, pacing, guessing tactics, and anxiety reduction."
+    - badge: "PLAN"
+      title: "College Admissions Guidance"
+      text: "Application strategy, planning, and essay refinement from start to finish."
+
+process:
+  eyebrow: "3 Simple Steps to Higher SAT & ACT Scores"
+  items:
+    - number: "Step 1"
+      title: "Free Consultation"
+      text: "We'll discuss your child's current testing and goals."
+    - number: "Step 2"
+      title: "Personalized Plan"
+      text: "I'll create a tailored prep plan built around strengths and areas for improvement."
+    - number: "Step 3"
+      title: "1-on-1 Weekly Sessions"
+      text: "Private, focused sessions designed to build skills, confidence, and expert guidance."
+
+student_spotlight:
+  value: "+210"
+  label: "SAT points"
+  image: "media/home/student-study.jpg"
+  image_alt: "A student taking notes beside a laptop"
+  image_label: "Representative student image"
+  credit: "Michael Burrows / Pexels"
+  source_url: "https://www.pexels.com/photo/crop-student-writing-in-agenda-at-desk-with-laptop-7129007/"
+
+testimonials:
+  title: "Hear It From My Students"
+  items:
+    - name: "Olivia R."
+      location: "Atlanta, GA"
+      initials: "OR"
+      text: "Cassidy turned my test anxiety into confidence. My SAT went up 210 points after working with her for just two months. She explains things in a way that just clicks."
+    - name: "Ethan S."
+      location: "Chicago, IL"
+      initials: "ES"
+      text: "I was totally lost in the college process. Cassidy helped me build a college list, edit every essay, and prepare for interviews. I got into 7 of my top 8 schools."
+    - name: "Maya T."
+      location: "Los Angeles, CA"
+      initials: "MT"
+      text: "Cassidy doesn't just teach the test—she teaches strategy. I went from a 23 to a 31 on the ACT, and it changed what schools I thought were possible."
+    - name: "Jackson D."
+      location: "Austin, TX"
+      initials: "JD"
+      text: "Cassidy made college essays way less intimidating. She helped me tell my story without sounding fake or forced and helped me find my voice."
+
+faq:
+  title: "Frequently Asked Questions"
+  items:
+    - question: "How much can my child realistically improve?"
+      answer: "Most students improve 200–300+ SAT points or 4–6+ ACT points. Improvement varies by starting score, preparation time, and consistency in sessions."
+    - question: "Is tutoring fully online?"
+      answer: "Yes. All sessions are online, making it easy for your child to receive the same focused support from anywhere."
+    - question: "Do you work with ADHD or test anxiety?"
+      answer: "Yes. Cassidy's approach is designed to meet different learning styles and helps students build confidence, pacing, and practical test-day strategies."
+    - question: "How is this different from group classes?"
+      answer: "This is personalized one-on-one tutoring tailored to your child's skill gaps, needs, timeline, and goals—never a one-size-fits-all program."
+    - question: "How many students do you accept?"
+      answer: "Cassidy maintains a limited roster so each student receives focused preparation and meaningful support throughout the process."
+
+closing:
+  eyebrow: "Your Child's Future"
+  title: "Deserves a Clear Plan"
+  text: "I know how much this matters to you. Let's take the first step together."
+  image: "media/home/student-future.jpg"
+  image_alt: "A smiling college student holding study papers on campus"
+  image_label: "Representative student image"
+  credit: "George Pak / Pexels"
+  source_url: "https://www.pexels.com/photo/photo-of-a-man-in-a-gray-sweatshirt-smiling-while-looking-at-the-camera-7972568/"
+
+footer:
+  text: "Cassidy Artz. All rights reserved."

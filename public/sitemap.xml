@@ -2,60 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cassidyartz.com/confirmation/</loc>
+    <loc>http://localhost:59832/confirmation/</loc>
     <lastmod>2026-02-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/college-admissions/</loc>
+    <loc>http://localhost:59832/college-admissions/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/test-prep/</loc>
+    <loc>http://localhost:59832/test-prep/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/experience/</loc>
+    <loc>http://localhost:59832/experience/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/</loc>
+    <loc>http://localhost:59832/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/services/collegeadmissions/</loc>
+    <loc>http://localhost:59832/services/collegeadmissions/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/publication_types/</loc>
+    <loc>http://localhost:59832/services/testprep/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/schedule/</loc>
+    <loc>http://localhost:59832/publication_types/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/lead-generation/</loc>
+    <loc>http://localhost:59832/schedule/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/services/</loc>
+    <loc>http://localhost:59832/lead-generation/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/testimonials/</loc>
+    <loc>http://localhost:59832/services/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/tags/</loc>
+    <loc>http://localhost:59832/testimonials/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://cassidyartz.com/services/testprep/</loc>
+    <loc>http://localhost:59832/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

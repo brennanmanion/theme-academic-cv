@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services | Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions</title>
-    <link>https://cassidyartz.com/services/</link>
-      <atom:link href="https://cassidyartz.com/services/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:59832/services/</link>
+      <atom:link href="http://localhost:59832/services/index.xml" rel="self" type="application/rss+xml" />
     <description>Services</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>https://cassidyartz.com/media/icon_hu2829498804382859105.png</url>
+      <url>http://localhost:59832/media/icon_hu2829498804382859105.png</url>
       <title>Services</title>
-      <link>https://cassidyartz.com/services/</link>
+      <link>http://localhost:59832/services/</link>
     </image>
     
     <item>
       <title>College Admissions</title>
-      <link>https://cassidyartz.com/services/collegeadmissions/</link>
+      <link>http://localhost:59832/services/collegeadmissions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cassidyartz.com/services/collegeadmissions/</guid>
+      <guid>http://localhost:59832/services/collegeadmissions/</guid>
       <description>&lt;p&gt;Cassidy provides college application support&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Test Prep</title>
-      <link>https://cassidyartz.com/services/testprep/</link>
+      <title>Online SAT &amp; ACT Tutoring</title>
+      <link>http://localhost:59832/services/testprep/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cassidyartz.com/services/testprep/</guid>
-      <description>&lt;p&gt;Cassidy offers one-on-one tutoring&lt;/p&gt;</description>
+      <guid>http://localhost:59832/services/testprep/</guid>
+      <description>&lt;p&gt;Cassidy offers personalized one-on-one SAT and ACT tutoring online, including subject instruction, pacing, test strategy, and study-plan support.&lt;/p&gt;</description>
     </item>
     
   </channel>

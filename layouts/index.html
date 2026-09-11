@@ -1,0 +1,213 @@
+{{ define "main" }}
+{{ $home := site.Data.homepage }}
+<main class="ca-home" id="main-content">
+  <a class="ca-skip-link" href="#hero-title">Skip to main content</a>
+
+  <div class="ca-announcement">
+    <div class="ca-container ca-announcement__inner">
+      <span>{{ $home.announcement.text }}</span>
+      <a href="{{ $home.cta.url | relURL }}">{{ $home.announcement.link_text }}</a>
+    </div>
+  </div>
+
+  <section class="ca-hero" aria-labelledby="hero-title">
+    <div class="ca-container ca-hero__inner">
+      <p class="ca-brand">{{ $home.brand }}</p>
+      <div class="ca-hero__grid">
+        <div class="ca-hero__copy">
+          <h1 id="hero-title">{{ $home.hero.title }}</h1>
+          <p class="ca-hero__description">{{ $home.hero.description }}</p>
+          <p class="ca-eyebrow">{{ $home.hero.proof }}</p>
+        </div>
+
+        <aside class="ca-hero-card" aria-label="Schedule a complimentary call">
+          <p class="ca-hero-card__title">{{ $home.hero.panel_title }}</p>
+          <p>{{ $home.hero.panel_text }}</p>
+          <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+          <small>{{ $home.cta.note }}</small>
+        </aside>
+      </div>
+
+      <div class="ca-experience" aria-label="{{ $home.experience.value }} {{ $home.experience.label }}">
+        <span class="ca-experience__value">{{ $home.experience.value }}</span>
+        <span class="ca-experience__label">{{ $home.experience.label }}</span>
+      </div>
+
+      <p class="ca-score-intro">{{ $home.score_intro }}</p>
+      <div class="ca-score-grid">
+        {{ range $home.score_stats }}
+          <article class="ca-score-card">
+            <strong>{{ .value }}</strong>
+            <span>{{ .label }}</span>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="ca-section ca-colleges" aria-labelledby="colleges-title">
+    <div class="ca-container ca-container--narrow">
+      <h2 id="colleges-title">{{ $home.colleges.title }}</h2>
+      <div class="ca-college-grid" aria-label="College acceptances">
+        {{ range $home.colleges.items }}
+          <div class="ca-college-mark" aria-label="{{ . }} logo placeholder">
+            <span class="ca-college-mark__seal" aria-hidden="true">{{ substr . 0 1 }}</span>
+            <strong>{{ . }}</strong>
+          </div>
+        {{ end }}
+      </div>
+      <p class="ca-placeholder-note">{{ $home.colleges.note }}</p>
+    </div>
+  </section>
+
+  <section class="ca-section ca-section--dark ca-featured-result" aria-labelledby="featured-result-title">
+    <div class="ca-container ca-container--narrow">
+      <p class="ca-section-eyebrow">{{ $home.featured_result.eyebrow }}</p>
+      <article class="ca-result-card">
+        {{ with resources.Get $home.featured_result.image }}
+          {{ $resultSmall := .Resize "720x webp q82" }}
+          {{ $resultLarge := .Resize "1400x webp q82" }}
+          <figure class="ca-photo ca-result-card__media">
+            <picture>
+              <source media="(max-width: 600px)" srcset="{{ $resultSmall.RelPermalink }}">
+              <img src="{{ $resultLarge.RelPermalink }}" width="{{ $resultLarge.Width }}" height="{{ $resultLarge.Height }}" alt="{{ $home.featured_result.image_alt }}" loading="lazy" decoding="async">
+            </picture>
+          </figure>
+        {{ end }}
+        <div class="ca-result-card__body">
+          <p class="ca-result-card__kicker">Admitted to</p>
+          <h2 id="featured-result-title">{{ $home.featured_result.title }}</h2>
+          <dl class="ca-result-card__meta">
+            <div><dt>Student</dt><dd>{{ $home.featured_result.name }}</dd></div>
+            <div><dt>Major</dt><dd>{{ $home.featured_result.detail }}</dd></div>
+          </dl>
+          <blockquote>“{{ $home.featured_result.quote }}”</blockquote>
+        </div>
+      </article>
+      <div class="ca-cta-row">
+        <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ca-section ca-services" aria-labelledby="services-title">
+    <div class="ca-container ca-container--narrow">
+      <h2 id="services-title">{{ $home.services.title }}</h2>
+      {{ $authorPage := site.GetPage "/authors/admin" }}
+      {{ $avatar := ($authorPage.Resources.ByType "image").GetMatch "*avatar*" }}
+      <div class="ca-profile-grid">
+        <div class="ca-profile-card">
+          {{ with $avatar }}
+            {{ $portrait := .Fill "760x920 Center webp q88" }}
+            <img src="{{ $portrait.RelPermalink }}" width="{{ $portrait.Width }}" height="{{ $portrait.Height }}" alt="Cassidy Artz" loading="lazy">
+          {{ end }}
+        </div>
+        <div class="ca-service-list">
+          {{ range $home.services.items }}
+            <article class="ca-service-item">
+              <span class="ca-service-item__badge" aria-hidden="true">{{ .badge }}</span>
+              <div>
+                <h3>{{ .title }}</h3>
+                <p>{{ .text }}</p>
+              </div>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+      <div class="ca-cta-row">
+        <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ca-section ca-section--dark ca-process" aria-labelledby="process-title">
+    <div class="ca-container ca-container--narrow">
+      <h2 id="process-title">{{ $home.process.eyebrow }}</h2>
+      <div class="ca-process-list">
+        {{ range $home.process.items }}
+          <article class="ca-process-card">
+            <span>{{ .number }}</span>
+            <h3>{{ .title }}</h3>
+            <p>{{ .text }}</p>
+          </article>
+        {{ end }}
+      </div>
+      <div class="ca-cta-row">
+        <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+      </div>
+      {{ with resources.Get $home.student_spotlight.image }}
+        {{ $spotlightSmall := .Resize "720x webp q82" }}
+        {{ $spotlightLarge := .Resize "1400x webp q82" }}
+        <figure class="ca-photo ca-spotlight">
+          <picture>
+            <source media="(max-width: 600px)" srcset="{{ $spotlightSmall.RelPermalink }}">
+            <img src="{{ $spotlightLarge.RelPermalink }}" width="{{ $spotlightLarge.Width }}" height="{{ $spotlightLarge.Height }}" alt="{{ $home.student_spotlight.image_alt }}" loading="lazy" decoding="async">
+          </picture>
+          <p><strong>{{ $home.student_spotlight.value }}</strong><span>{{ $home.student_spotlight.label }}</span></p>
+        </figure>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="ca-section ca-testimonials" aria-labelledby="testimonials-title">
+    <div class="ca-container ca-container--narrow">
+      <h2 id="testimonials-title">{{ $home.testimonials.title }}</h2>
+      <div class="ca-testimonial-grid">
+        {{ range $home.testimonials.items }}
+          <figure class="ca-testimonial-card">
+            <div class="ca-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>“{{ .text }}”</blockquote>
+            <figcaption>
+              <span aria-hidden="true">{{ .initials }}</span>
+              <p><strong>{{ .name }}</strong><small>{{ .location }}</small></p>
+            </figcaption>
+          </figure>
+        {{ end }}
+      </div>
+      <div class="ca-cta-row">
+        <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ca-section ca-faq" aria-labelledby="faq-title">
+    <div class="ca-container ca-container--narrow">
+      <h2 id="faq-title">{{ $home.faq.title }}</h2>
+      <div class="ca-faq-list">
+        {{ range $home.faq.items }}
+          <details class="ca-faq-item">
+            <summary>{{ .question }}</summary>
+            <p>{{ .answer }}</p>
+          </details>
+        {{ end }}
+      </div>
+      <div class="ca-cta-row">
+        <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ca-section ca-section--dark ca-closing" aria-labelledby="closing-title">
+    <div class="ca-container ca-container--narrow">
+      <p class="ca-section-eyebrow">{{ $home.closing.eyebrow }}</p>
+      <h2 id="closing-title">{{ $home.closing.title }}</h2>
+      <p class="ca-closing__text">{{ $home.closing.text }}</p>
+      {{ with resources.Get $home.closing.image }}
+        {{ $closingSmall := .Resize "720x webp q82" }}
+        {{ $closingLarge := .Resize "1400x webp q82" }}
+        <figure class="ca-photo ca-closing__media">
+          <picture>
+            <source media="(max-width: 600px)" srcset="{{ $closingSmall.RelPermalink }}">
+            <img src="{{ $closingLarge.RelPermalink }}" width="{{ $closingLarge.Width }}" height="{{ $closingLarge.Height }}" alt="{{ $home.closing.image_alt }}" loading="lazy" decoding="async">
+          </picture>
+        </figure>
+      {{ end }}
+      <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+      <footer class="ca-home-footer">
+        <span>&copy; {{ now.Year }} {{ $home.footer.text }}</span>
+        <a href="mailto:cassidyartz@gmail.com">Contact</a>
+      </footer>
+    </div>
+  </section>
+</main>
+{{ end }}

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cassidyartz.com/sitemap.xml
+Sitemap: http://localhost:59832/sitemap.xml
