@@ -64,9 +64,16 @@
     <div class="ca-container ca-container--narrow">
       <p class="ca-section-eyebrow">{{ $home.featured_result.eyebrow }}</p>
       <article class="ca-result-card">
-        <div class="ca-media-placeholder ca-result-card__media" role="img" aria-label="{{ $home.featured_result.placeholder }}">
-          <span>{{ $home.featured_result.placeholder }}</span>
-        </div>
+        {{ with resources.Get $home.featured_result.image }}
+          {{ $resultSmall := .Resize "720x webp q82" }}
+          {{ $resultLarge := .Resize "1400x webp q82" }}
+          <figure class="ca-photo ca-result-card__media">
+            <picture>
+              <source media="(max-width: 600px)" srcset="{{ $resultSmall.RelPermalink }}">
+              <img src="{{ $resultLarge.RelPermalink }}" width="{{ $resultLarge.Width }}" height="{{ $resultLarge.Height }}" alt="{{ $home.featured_result.image_alt }}" loading="lazy" decoding="async">
+            </picture>
+          </figure>
+        {{ end }}
         <div class="ca-result-card__body">
           <p class="ca-result-card__kicker">Admitted to</p>
           <h2 id="featured-result-title">{{ $home.featured_result.title }}</h2>
@@ -128,10 +135,17 @@
       <div class="ca-cta-row">
         <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
       </div>
-      <div class="ca-media-placeholder ca-spotlight" role="img" aria-label="{{ $home.student_spotlight.placeholder }}">
-        <span class="ca-media-placeholder__label">{{ $home.student_spotlight.placeholder }}</span>
-        <p><strong>{{ $home.student_spotlight.value }}</strong><span>{{ $home.student_spotlight.label }}</span></p>
-      </div>
+      {{ with resources.Get $home.student_spotlight.image }}
+        {{ $spotlightSmall := .Resize "720x webp q82" }}
+        {{ $spotlightLarge := .Resize "1400x webp q82" }}
+        <figure class="ca-photo ca-spotlight">
+          <picture>
+            <source media="(max-width: 600px)" srcset="{{ $spotlightSmall.RelPermalink }}">
+            <img src="{{ $spotlightLarge.RelPermalink }}" width="{{ $spotlightLarge.Width }}" height="{{ $spotlightLarge.Height }}" alt="{{ $home.student_spotlight.image_alt }}" loading="lazy" decoding="async">
+          </picture>
+          <p><strong>{{ $home.student_spotlight.value }}</strong><span>{{ $home.student_spotlight.label }}</span></p>
+        </figure>
+      {{ end }}
     </div>
   </section>
 
@@ -178,9 +192,16 @@
       <p class="ca-section-eyebrow">{{ $home.closing.eyebrow }}</p>
       <h2 id="closing-title">{{ $home.closing.title }}</h2>
       <p class="ca-closing__text">{{ $home.closing.text }}</p>
-      <div class="ca-media-placeholder ca-closing__media" role="img" aria-label="{{ $home.closing.placeholder }}">
-        <span>{{ $home.closing.placeholder }}</span>
-      </div>
+      {{ with resources.Get $home.closing.image }}
+        {{ $closingSmall := .Resize "720x webp q82" }}
+        {{ $closingLarge := .Resize "1400x webp q82" }}
+        <figure class="ca-photo ca-closing__media">
+          <picture>
+            <source media="(max-width: 600px)" srcset="{{ $closingSmall.RelPermalink }}">
+            <img src="{{ $closingLarge.RelPermalink }}" width="{{ $closingLarge.Width }}" height="{{ $closingLarge.Height }}" alt="{{ $home.closing.image_alt }}" loading="lazy" decoding="async">
+          </picture>
+        </figure>
+      {{ end }}
       <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
       <footer class="ca-home-footer">
         <span>&copy; {{ now.Year }} {{ $home.footer.text }}</span>

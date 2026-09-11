@@ -384,39 +384,23 @@ body:has(.ca-home) .page-body {
   color: var(--ca-ink);
 }
 
-.ca-media-placeholder {
+.ca-photo {
   position: relative;
   isolation: isolate;
-  display: grid;
   overflow: hidden;
-  place-items: center;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.14), transparent 46%),
-    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px 12px),
-    var(--ca-green-800);
-  color: rgba(255, 255, 255, 0.77);
+  margin: 0;
+  background: var(--ca-green-800);
 }
 
-.ca-media-placeholder::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  width: 12rem;
-  aspect-ratio: 1;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 50%;
-  box-shadow: 0 0 0 2.5rem rgba(255, 255, 255, 0.025), 0 0 0 5rem rgba(255, 255, 255, 0.018);
+.ca-photo picture,
+.ca-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
-.ca-media-placeholder > span {
-  max-width: 12rem;
-  padding: 0.5rem 0.7rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 999px;
-  background: rgba(0, 45, 36, 0.66);
-  font-size: 0.68rem;
-  font-weight: 800;
-  text-align: center;
+.ca-photo img {
+  object-fit: cover;
 }
 
 .ca-result-card__media {
@@ -596,10 +580,12 @@ body:has(.ca-home) .page-body {
   border-radius: var(--ca-radius-md);
 }
 
-.ca-spotlight .ca-media-placeholder__label {
+.ca-spotlight::after {
+  content: "";
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(to top, rgba(0, 38, 31, 0.58), transparent 42%);
 }
 
 .ca-spotlight p {

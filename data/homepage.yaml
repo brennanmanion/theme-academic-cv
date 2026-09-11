@@ -48,7 +48,11 @@ featured_result:
   name: "Emma R."
   detail: "Biomedical Engineering"
   quote: "Cassidy raised my SAT score 280 points."
-  placeholder: "Student photo placeholder"
+  image: "media/home/student-result.jpg"
+  image_alt: "A college student working with a laptop and notebook"
+  image_label: "Representative student image"
+  credit: "Charlotte May / Pexels"
+  source_url: "https://www.pexels.com/photo/crop-laughing-black-student-with-laptop-and-notebook-5965525/"
 
 services:
   title: "What I Bring to My Students"
@@ -82,7 +86,11 @@ process:
 student_spotlight:
   value: "+210"
   label: "SAT points"
-  placeholder: "Student success photo placeholder"
+  image: "media/home/student-study.jpg"
+  image_alt: "A student taking notes beside a laptop"
+  image_label: "Representative student image"
+  credit: "Michael Burrows / Pexels"
+  source_url: "https://www.pexels.com/photo/crop-student-writing-in-agenda-at-desk-with-laptop-7129007/"
 
 testimonials:
   title: "Hear It From My Students"
@@ -122,7 +130,11 @@ closing:
   eyebrow: "Your Child's Future"
   title: "Deserves a Clear Plan"
   text: "I know how much this matters to you. Let's take the first step together."
-  placeholder: "Student future photo placeholder"
+  image: "media/home/student-future.jpg"
+  image_alt: "A smiling college student holding study papers on campus"
+  image_label: "Representative student image"
+  credit: "George Pak / Pexels"
+  source_url: "https://www.pexels.com/photo/photo-of-a-man-in-a-gray-sweatshirt-smiling-while-looking-at-the-camera-7972568/"
 
 footer:
   text: "Cassidy Artz. All rights reserved."
