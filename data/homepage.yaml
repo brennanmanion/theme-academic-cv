@@ -30,17 +30,25 @@ score_stats:
 
 colleges:
   title: "Students Accepted to Leading Colleges"
-  note: "School marks are represented by placeholders until the original logo assets are available."
   items:
-    - Harvard
-    - Princeton
-    - Notre Dame
-    - Stanford
-    - Georgetown
-    - Georgia Tech
-    - Brown
-    - Emory
-    - Northwestern
+    - name: Harvard
+      image: "media/colleges/harvard.svg"
+    - name: Princeton
+      image: "media/colleges/princeton.svg"
+    - name: Notre Dame
+      image: "media/colleges/notre-dame.svg"
+    - name: Stanford
+      image: "media/colleges/stanford.svg"
+    - name: Georgetown
+      image: "media/colleges/georgetown.svg"
+    - name: Georgia Tech
+      image: "media/colleges/georgia-tech.svg"
+    - name: Brown
+      image: "media/colleges/brown.svg"
+    - name: Emory
+      image: "media/colleges/emory.svg"
+    - name: Northwestern
+      image: "media/colleges/northwestern.svg"
 
 featured_result:
   eyebrow: "Results That Open Ivy-League Doors"

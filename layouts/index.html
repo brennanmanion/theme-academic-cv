@@ -50,13 +50,17 @@
       <h2 id="colleges-title">{{ $home.colleges.title }}</h2>
       <div class="ca-college-grid" aria-label="College acceptances">
         {{ range $home.colleges.items }}
-          <div class="ca-college-mark" aria-label="{{ . }} logo placeholder">
-            <span class="ca-college-mark__seal" aria-hidden="true">{{ substr . 0 1 }}</span>
-            <strong>{{ . }}</strong>
+          {{ $college := . }}
+          <div class="ca-college-mark">
+            {{ with resources.Get .image }}
+              <span class="ca-college-mark__art">
+                <img src="{{ .RelPermalink }}" width="72" height="72" alt="{{ $college.name }} university mark" loading="lazy" decoding="async">
+              </span>
+            {{ end }}
+            <strong>{{ .name }}</strong>
           </div>
         {{ end }}
       </div>
-      <p class="ca-placeholder-note">{{ $home.colleges.note }}</p>
     </div>
   </section>
 
