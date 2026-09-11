@@ -344,34 +344,27 @@ body:has(.ca-home) .page-body {
   text-align: center;
 }
 
-.ca-college-mark__seal {
+.ca-college-mark__art {
   display: grid;
-  width: 3.4rem;
+  width: 4.5rem;
   aspect-ratio: 1;
   place-items: center;
-  border: 2px solid color-mix(in srgb, var(--ca-green-900), transparent 35%);
-  border-radius: 50%;
+  padding: 0.35rem;
+  border-radius: 0.6rem;
   background: var(--ca-white);
-  box-shadow: inset 0 0 0 0.28rem var(--ca-green-100);
-  color: var(--ca-green-950);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.3rem;
-  font-weight: 900;
+}
+
+.ca-college-mark__art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .ca-college-mark strong {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 0.7rem;
   line-height: 1.1;
-}
-
-.ca-placeholder-note {
-  max-width: 30rem;
-  margin: 1.4rem auto 0;
-  color: var(--ca-muted);
-  font-size: 0.67rem;
-  line-height: 1.4;
-  text-align: center;
 }
 
 .ca-result-card {
