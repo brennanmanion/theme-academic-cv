@@ -1,0 +1,4 @@
+{{ if .IsHome }}
+  {{ $homeStyles := resources.Get "css/home.css" | minify | fingerprint "sha256" }}
+  <link href="{{ $homeStyles.RelPermalink }}" rel="stylesheet" integrity="{{ $homeStyles.Data.Integrity }}">
+{{ end }}

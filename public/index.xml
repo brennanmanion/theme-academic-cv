@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions</title>
-    <link>https://cassidyartz.com/</link>
-      <atom:link href="https://cassidyartz.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:59832/</link>
+      <atom:link href="http://localhost:59832/index.xml" rel="self" type="application/rss+xml" />
     <description>Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://cassidyartz.com/media/icon_hu2829498804382859105.png</url>
+      <url>http://localhost:59832/media/icon_hu2829498804382859105.png</url>
       <title>Cassidy Artz Tutoring | SAT/ACT &amp; College Admissions</title>
-      <link>https://cassidyartz.com/</link>
+      <link>http://localhost:59832/</link>
     </image>
     
     <item>
       <title>Appointment Confirmed</title>
-      <link>https://cassidyartz.com/confirmation/</link>
+      <link>http://localhost:59832/confirmation/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://cassidyartz.com/confirmation/</guid>
+      <guid>http://localhost:59832/confirmation/</guid>
       <description>&lt;p&gt;Thanks for scheduling with Cassidy.&lt;/p&gt;
 &lt;p&gt;Your Calendly booking is confirmed, and a calendar invite with meeting details is on its way to your inbox.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://cassidyartz.com/&#34;&gt;Back to Home&lt;/a&gt;
-&lt;a href=&#34;https://cassidyartz.com/schedule/&#34;&gt;Schedule Another Time&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:59832/&#34;&gt;Back to Home&lt;/a&gt;
+&lt;a href=&#34;http://localhost:59832/schedule/&#34;&gt;Schedule Another Time&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>College Admissions Coaching</title>
-      <link>https://cassidyartz.com/college-admissions/</link>
+      <link>http://localhost:59832/college-admissions/</link>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://cassidyartz.com/college-admissions/</guid>
+      <guid>http://localhost:59832/college-admissions/</guid>
       <description>&lt;h2 id=&#34;whats-included&#34;&gt;What&amp;rsquo;s included&lt;/h2&gt;
 &lt;p&gt;Cassidy also provides college application support, including:&lt;/p&gt;
 &lt;ul&gt;
@@ -49,73 +49,105 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;next-steps&#34;&gt;Next steps&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cassidyartz.com/lead-generation/&#34;&gt;Schedule a call&lt;/a&gt; to discuss your timeline.&lt;/li&gt;
-&lt;li&gt;See &lt;a href=&#34;https://cassidyartz.com/test-prep/&#34;&gt;SAT/ACT Test Prep Online&lt;/a&gt; for score improvement support.&lt;/li&gt;
-&lt;li&gt;Browse &lt;a href=&#34;https://cassidyartz.com/testimonials/&#34;&gt;Success Stories&lt;/a&gt; for recent outcomes.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:59832/lead-generation/&#34;&gt;Schedule a call&lt;/a&gt; to discuss your timeline.&lt;/li&gt;
+&lt;li&gt;See &lt;a href=&#34;http://localhost:59832/test-prep/&#34;&gt;SAT/ACT Test Prep Online&lt;/a&gt; for score improvement support.&lt;/li&gt;
+&lt;li&gt;Browse &lt;a href=&#34;http://localhost:59832/testimonials/&#34;&gt;Success Stories&lt;/a&gt; for recent outcomes.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>SAT/ACT Test Prep</title>
-      <link>https://cassidyartz.com/test-prep/</link>
+      <title>Online SAT &amp; ACT Tutoring</title>
+      <link>http://localhost:59832/test-prep/</link>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://cassidyartz.com/test-prep/</guid>
-      <description>&lt;h2 id=&#34;whats-included&#34;&gt;What&amp;rsquo;s included&lt;/h2&gt;
-&lt;p&gt;Cassidy offers one-on-one tutoring for:&lt;/p&gt;
+      <guid>http://localhost:59832/test-prep/</guid>
+      <description>&lt;p&gt;Cassidy provides private SAT and ACT tutoring online for students who want a personalized alternative to a large prep class or self-guided course. Each plan is built around the student’s starting score, target score, test date, schedule, and learning style.&lt;/p&gt;
+&lt;h2 id=&#34;one-on-one-sat-and-act-tutoring-online&#34;&gt;One-on-one SAT and ACT tutoring online&lt;/h2&gt;
+&lt;h3 id=&#34;online-sat-tutoring&#34;&gt;Online SAT tutoring&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;SAT:&lt;/strong&gt; Math, Reading, and Writing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ACT:&lt;/strong&gt; English, Math, Reading, Science, and Essay&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Test Strategy:&lt;/strong&gt; Time management, pacing, guessing tactics, anxiety reduction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SAT Math:&lt;/strong&gt; Algebra, advanced math, problem solving, data analysis, and efficient calculator use&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SAT Reading and Writing:&lt;/strong&gt; Comprehension, rhetoric, grammar, vocabulary in context, and evidence-based answers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Digital SAT strategy:&lt;/strong&gt; Pacing, question triage, educated guessing, and practice with the adaptive test format&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Her tutoring is customized to each student’s skill gaps, confidence level, and learning preferences. On average, clients see score increases of 200–300+ points on the SAT and 4–6+ points on the ACT.&lt;/p&gt;
+&lt;p&gt;Students looking for an SAT tutor online receive focused instruction rather than a generic curriculum. Cassidy can devote a session to a specific need—such as SAT math tutoring online—or combine content review with a complete SAT training plan.&lt;/p&gt;
+&lt;h3 id=&#34;online-act-tutoring&#34;&gt;Online ACT tutoring&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ACT English and Reading:&lt;/strong&gt; Grammar, rhetoric, passage strategy, and time management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ACT Math and optional Science:&lt;/strong&gt; Core concepts, data interpretation, modeling, and efficient problem-solving&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ACT test strategy:&lt;/strong&gt; Pacing, guessing tactics, endurance, and anxiety reduction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Working with an ACT tutor online gives students the same individualized feedback and accountability without limiting them to tutors in their immediate area.&lt;/p&gt;
+&lt;h2 id=&#34;how-online-test-prep-works&#34;&gt;How online test prep works&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Set the goal.&lt;/strong&gt; Cassidy reviews the student’s baseline, score target, test date, and college plans.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Build a personal study plan.&lt;/strong&gt; Sessions prioritize the skills and question types most likely to improve the student’s score.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Practice with feedback.&lt;/strong&gt; Students learn why an answer works, how to recognize the pattern again, and when to change strategies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adjust as scores improve.&lt;/strong&gt; Practice-test results guide the next round of lessons and independent work.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Her online SAT coaching and ACT tutoring are customized to each student’s skill gaps, confidence level, and learning preferences. On average, clients see score increases of 200–300+ points on the SAT and 4–6+ points on the ACT.&lt;/p&gt;
+&lt;h2 id=&#34;who-benefits-from-private-online-tutoring&#34;&gt;Who benefits from private online tutoring?&lt;/h2&gt;
+&lt;p&gt;One-on-one tutoring can be a strong fit for students who:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Need a structured SAT or ACT study schedule&lt;/li&gt;
+&lt;li&gt;Want targeted help in math, English, reading, or science&lt;/li&gt;
+&lt;li&gt;Have ADHD, test anxiety, or learning differences&lt;/li&gt;
+&lt;li&gt;Have plateaued with self-study or a group program&lt;/li&gt;
+&lt;li&gt;Need test prep that works around school, activities, and family schedules&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;frequently-asked-questions&#34;&gt;Frequently asked questions&lt;/h2&gt;
+&lt;h3 id=&#34;is-online-sat-tutoring-as-effective-as-in-person-tutoring&#34;&gt;Is online SAT tutoring as effective as in-person tutoring?&lt;/h3&gt;
+&lt;p&gt;Online sessions still include live instruction, guided problem-solving, practice review, and an individualized study plan. They also make it easier to work consistently with the same tutor from anywhere.&lt;/p&gt;
+&lt;h3 id=&#34;is-this-a-class-or-private-tutoring&#34;&gt;Is this a class or private tutoring?&lt;/h3&gt;
+&lt;p&gt;Cassidy’s test prep is one-on-one. The pace, assignments, and lesson topics are chosen for the individual student rather than a group curriculum.&lt;/p&gt;
+&lt;h3 id=&#34;can-a-student-prepare-for-both-the-sat-and-act&#34;&gt;Can a student prepare for both the SAT and ACT?&lt;/h3&gt;
+&lt;p&gt;Yes. Cassidy can help a student compare diagnostic results, decide which exam better fits their strengths, and build a focused plan for that test.&lt;/p&gt;
 &lt;h2 id=&#34;next-steps&#34;&gt;Next steps&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cassidyartz.com/lead-generation/&#34;&gt;Schedule a call&lt;/a&gt; to discuss goals and timing.&lt;/li&gt;
-&lt;li&gt;Explore &lt;a href=&#34;https://cassidyartz.com/college-admissions/&#34;&gt;College Admissions Coaching Online&lt;/a&gt; for application support.&lt;/li&gt;
-&lt;li&gt;Read &lt;a href=&#34;https://cassidyartz.com/testimonials/&#34;&gt;Success Stories&lt;/a&gt; from recent students.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:59832/schedule/&#34;&gt;Schedule a call&lt;/a&gt; to discuss goals, timing, and the right online test-prep plan.&lt;/li&gt;
+&lt;li&gt;Explore &lt;a href=&#34;http://localhost:59832/college-admissions/&#34;&gt;College Admissions Coaching Online&lt;/a&gt; for application support.&lt;/li&gt;
+&lt;li&gt;Read &lt;a href=&#34;http://localhost:59832/testimonials/&#34;&gt;Success Stories&lt;/a&gt; from recent students.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>https://cassidyartz.com/experience/</link>
+      <link>http://localhost:59832/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://cassidyartz.com/experience/</guid>
+      <guid>http://localhost:59832/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>College Admissions</title>
-      <link>https://cassidyartz.com/services/collegeadmissions/</link>
+      <link>http://localhost:59832/services/collegeadmissions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cassidyartz.com/services/collegeadmissions/</guid>
+      <guid>http://localhost:59832/services/collegeadmissions/</guid>
       <description>&lt;p&gt;Cassidy provides college application support&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Schedule</title>
-      <link>https://cassidyartz.com/schedule/</link>
+      <title>Online SAT &amp; ACT Tutoring</title>
+      <link>http://localhost:59832/services/testprep/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cassidyartz.com/schedule/</guid>
+      <guid>http://localhost:59832/services/testprep/</guid>
+      <description>&lt;p&gt;Cassidy offers personalized one-on-one SAT and ACT tutoring online, including subject instruction, pacing, test strategy, and study-plan support.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>http://localhost:59832/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:59832/schedule/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Schedule a Call</title>
-      <link>https://cassidyartz.com/lead-generation/</link>
+      <link>http://localhost:59832/lead-generation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cassidyartz.com/lead-generation/</guid>
+      <guid>http://localhost:59832/lead-generation/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Test Prep</title>
-      <link>https://cassidyartz.com/services/testprep/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cassidyartz.com/services/testprep/</guid>
-      <description>&lt;p&gt;Cassidy offers one-on-one tutoring&lt;/p&gt;</description>
     </item>
     
   </channel>
