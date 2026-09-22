@@ -6,7 +6,7 @@
   <div class="ca-announcement">
     <div class="ca-container ca-announcement__inner">
       <span>{{ $home.announcement.text }}</span>
-      <a href="{{ $home.cta.url | relURL }}">{{ $home.announcement.link_text }}</a>
+      <a data-cta-location="announcement" href="{{ $home.cta.url | relURL }}">{{ $home.announcement.link_text }}</a>
     </div>
   </div>
 
@@ -23,7 +23,7 @@
         <aside class="ca-hero-card" aria-label="Schedule a complimentary call">
           <p class="ca-hero-card__title">{{ $home.hero.panel_title }}</p>
           <p>{{ $home.hero.panel_text }}</p>
-          <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+          <a class="ca-button ca-button--primary" data-cta-location="hero" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
           <small>{{ $home.cta.note }}</small>
         </aside>
       </div>
@@ -89,7 +89,7 @@
         </div>
       </article>
       <div class="ca-cta-row">
-        <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+        <a class="ca-button ca-button--primary" data-cta-location="process" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
       </div>
     </div>
   </section>
@@ -111,7 +111,7 @@
             <article class="ca-service-item">
               <span class="ca-service-item__badge" aria-hidden="true">{{ .badge }}</span>
               <div>
-                <h3>{{ .title }}</h3>
+                <h3>{{ with .url }}<a class="ca-text-link" href="{{ . | relURL }}">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}</h3>
                 <p>{{ .text }}</p>
               </div>
             </article>
@@ -119,7 +119,7 @@
         </div>
       </div>
       <div class="ca-cta-row">
-        <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+        <a class="ca-button ca-button--primary" data-cta-location="services" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
       </div>
     </div>
   </section>
@@ -137,7 +137,7 @@
         {{ end }}
       </div>
       <div class="ca-cta-row">
-        <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+        <a class="ca-button ca-button--primary" data-cta-location="testimonials" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
       </div>
       {{ with resources.Get $home.student_spotlight.image }}
         {{ $spotlightSmall := .Resize "720x webp q82" }}
@@ -156,6 +156,7 @@
   <section class="ca-section ca-testimonials" aria-labelledby="testimonials-title">
     <div class="ca-container ca-container--narrow">
       <h2 id="testimonials-title">{{ $home.testimonials.title }}</h2>
+      <p><a class="ca-text-link" href="{{ "testimonials/" | relURL }}">Read more student success stories</a></p>
       <div class="ca-testimonial-grid">
         {{ range $home.testimonials.items }}
           <figure class="ca-testimonial-card">
@@ -169,7 +170,7 @@
         {{ end }}
       </div>
       <div class="ca-cta-row">
-        <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+        <a class="ca-button ca-button--primary" data-cta-location="closing" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
       </div>
     </div>
   </section>
@@ -206,7 +207,7 @@
           </picture>
         </figure>
       {{ end }}
-      <a class="ca-button ca-button--primary" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
+      <a class="ca-button ca-button--primary" data-cta-location="footer" href="{{ $home.cta.url | relURL }}">{{ $home.cta.text }}</a>
       <footer class="ca-home-footer">
         <span>&copy; {{ now.Year }} {{ $home.footer.text }}</span>
         <a href="mailto:cassidyartz@gmail.com">Contact</a>

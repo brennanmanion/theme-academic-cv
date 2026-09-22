@@ -36,11 +36,13 @@
       "itemListElement": [
         {{- range $index, $crumb := $crumbs -}}
         {{- if $index }},{{ end }}
+        {{- $crumbName := index $crumb "name" -}}
+        {{- $crumbURL := index $crumb "url" -}}
         {
           "@type": "ListItem",
           "position": {{ add $index 1 }},
-          "name": {{ $crumb.name | jsonify }},
-          "item": {{ $crumb.url | jsonify }}
+          "name": {{ $crumbName | jsonify | safeJS }},
+          "item": {{ $crumbURL | jsonify | safeJS }}
         }
         {{- end -}}
       ]

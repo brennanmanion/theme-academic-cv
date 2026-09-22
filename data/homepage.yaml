@@ -5,7 +5,7 @@ announcement:
 brand: "Cassidy Artz"
 
 hero:
-  title: "Prepare Your Child for Ivy League with Expert SAT & ACT Tutoring"
+  title: "One-on-One Online SAT & ACT Tutoring"
   description: "Give them clarity, confidence, and a plan that turns test-day stress into real progress."
   proof: "Trusted by families nationwide since 2010"
   panel_title: "Start with a clear plan"
@@ -67,15 +67,18 @@ services:
   items:
     - badge: "SAT"
       title: "SAT Tutoring"
+      url: "/test-prep/"
       text: "Math, Reading, and Writing with customized test-prep strategies."
     - badge: "ACT"
       title: "ACT Tutoring"
+      url: "/test-prep/"
       text: "English, Math, Reading, Science, and Essay support built around the student."
     - badge: "TIME"
       title: "Test Strategy"
       text: "Time management, pacing, guessing tactics, and anxiety reduction."
     - badge: "PLAN"
       title: "College Admissions Guidance"
+      url: "/college-admissions/"
       text: "Application strategy, planning, and essay refinement from start to finish."
 
 process:

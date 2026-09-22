@@ -3,6 +3,9 @@ title: "Appointment Confirmed"
 date: 2026-02-12
 summary: "Your meeting has been scheduled."
 type: page
+private: true
+sitemap:
+  disable: true
 pager: false
 share: false
 reading_time: false
