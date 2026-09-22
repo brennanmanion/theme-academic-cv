@@ -522,6 +522,21 @@ body:has(.ca-home) .page-body {
   font-weight: 850;
 }
 
+.ca-home .ca-text-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.ca-home .ca-text-link:hover {
+  text-decoration-thickness: 2px;
+}
+
+.ca-home .ca-text-link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
 .ca-service-item p {
   margin: 0.3rem 0 0;
   color: var(--ca-muted);

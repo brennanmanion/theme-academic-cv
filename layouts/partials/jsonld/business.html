@@ -1,0 +1,27 @@
+{{- $sharingImage := resources.GetMatch (path.Join "media" "sharing.*") -}}
+{{- $business := dict
+  "@context" "https://schema.org"
+  "@type" (site.Params.marketing.seo.site_type | default "EducationalService")
+  "@id" site.BaseURL
+  "name" (site.Params.marketing.seo.org_name | default site.Title)
+  "logo" (partial "functions/get_logo_url" .)
+  "url" site.BaseURL
+-}}
+{{- with $sharingImage }}{{ $business = merge $business (dict "image" .Permalink) }}{{ end -}}
+{{- with site.Params.marketing.seo.phone }}{{ $business = merge $business (dict "telephone" .) }}{{ end -}}
+{{- with site.Params.marketing.seo.address }}
+  {{- $address := dict
+    "@type" "PostalAddress"
+    "streetAddress" (.street | default "")
+    "addressLocality" (.city | default "")
+    "addressRegion" (.region | default "")
+    "postalCode" (.postcode | default "")
+    "addressCountry" (.country_code | default .country | default "")
+  -}}
+  {{- $business = merge $business (dict "address" $address) -}}
+{{- end -}}
+{{- with site.Params.marketing.seo.coordinates }}
+  {{- $geo := dict "@type" "GeoCoordinates" "latitude" .latitude "longitude" .longitude -}}
+  {{- $business = merge $business (dict "geo" $geo) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $business | jsonify | safeJS }}</script>

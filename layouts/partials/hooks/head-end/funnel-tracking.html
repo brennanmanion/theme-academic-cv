@@ -1,0 +1,112 @@
+{{/*
+  Funnel tracking for GA4.
+
+  The theme already loads GA4 from params.marketing.analytics.google_analytics.
+  This hook adds a small, site-specific event layer without requiring a second
+  analytics script or a tag manager.
+*/}}
+<script>
+  (() => {
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+
+    const bookingPaths = new Set(['/schedule/', '/lead-generation/']);
+    const debugMode = new URLSearchParams(window.location.search).get('ga_debug') === '1';
+
+    const track = (eventName, parameters = {}) => {
+      window.gtag('event', eventName, {
+        ...parameters,
+        page_location: window.location.href,
+        page_path: window.location.pathname,
+        ...(debugMode ? { debug_mode: true } : {})
+      });
+    };
+
+    document.addEventListener('click', (event) => {
+      const link = event.target.closest('a');
+      if (!link) return;
+
+      const url = new URL(link.href, window.location.href);
+      const isSameOrigin = url.origin === window.location.origin;
+      const linkText = (link.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 100);
+
+      if (isSameOrigin && bookingPaths.has(url.pathname)) {
+        track('funnel_cta_click', {
+          funnel_stage: 'booking_page',
+          cta_destination: url.pathname,
+          cta_text: linkText || '(untitled)',
+          cta_location: link.dataset.ctaLocation || 'page'
+        });
+      } else if (url.protocol === 'mailto:') {
+        track('contact_email_click', {
+          funnel_stage: 'contact',
+          cta_text: linkText || 'Contact'
+        });
+      }
+    });
+
+    if (bookingPaths.has(window.location.pathname)) {
+      track('booking_page_view', {
+        funnel_stage: 'booking_page',
+        booking_provider: 'calendly'
+      });
+    }
+
+    const safeSessionGet = (key) => {
+      try {
+        return window.sessionStorage.getItem(key);
+      } catch (_) {
+        return null;
+      }
+    };
+
+    const safeSessionSet = (key, value) => {
+      try {
+        window.sessionStorage.setItem(key, value);
+      } catch (_) {
+        // In-memory deduplication below still protects this page load.
+      }
+    };
+
+    const trackedBookings = new Set();
+    const trackBooking = (bookingKey, source, parameters = {}) => {
+      if (trackedBookings.has(bookingKey) || safeSessionGet(`ca_booking_tracked:${bookingKey}`)) return;
+
+      track('generate_lead', {
+        funnel_stage: 'conversion',
+        conversion_type: 'calendly_booking',
+        booking_provider: 'calendly',
+        conversion_source: source,
+        ...parameters
+      });
+      trackedBookings.add(bookingKey);
+      safeSessionSet(`ca_booking_tracked:${bookingKey}`, '1');
+    };
+
+    const calendlyFrames = () => Array.from(document.querySelectorAll('iframe[src]'))
+      .filter((iframe) => {
+        try {
+          return new URL(iframe.src, window.location.href).origin === 'https://calendly.com';
+        } catch (_) {
+          return false;
+        }
+      });
+
+    // Calendly's embedded widget posts booking-flow events to the parent page.
+    // This captures a completed booking without requiring a paid redirect.
+    window.addEventListener('message', (messageEvent) => {
+      if (messageEvent.origin !== 'https://calendly.com') return;
+      if (!calendlyFrames().some((iframe) => iframe.contentWindow === messageEvent.source)) return;
+
+      const calendlyEvent = messageEvent.data && messageEvent.data.event;
+      if (calendlyEvent === 'calendly.event_scheduled') {
+        const payload = messageEvent.data && messageEvent.data.payload;
+        const eventUri = payload && payload.event && payload.event.uri;
+        const bookingKey = typeof eventUri === 'string' && eventUri.startsWith('https://calendly.com/')
+          ? eventUri
+          : 'calendly.event_scheduled';
+        trackBooking(bookingKey, 'calendly_embed', { calendly_event: calendlyEvent });
+      }
+    });
+  })();
+</script>

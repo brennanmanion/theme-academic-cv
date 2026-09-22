@@ -3,7 +3,7 @@ title: ""
 date: 2022-10-24
 hide_header: true
 hide_footer: true
+summary: "Private online SAT and ACT tutoring with Cassidy Artz. Get personalized one-on-one support and book a complimentary call to discuss your child's goals."
 seo:
-  title: "SAT/ACT Tutoring & College Admissions | {brand}"
-  description: "Personalized one-on-one SAT and ACT tutoring and college admissions coaching with Cassidy Artz."
+  title: "Online SAT & ACT Tutoring | Cassidy Artz"
 ---
